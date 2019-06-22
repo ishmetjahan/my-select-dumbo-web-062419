@@ -3,6 +3,7 @@ def my_select(collection)
  newArr= []
  while i<collection.length 
  if yield(collection[i])
+   newArr<< collection[i]
  end
  i+=1 
  end
